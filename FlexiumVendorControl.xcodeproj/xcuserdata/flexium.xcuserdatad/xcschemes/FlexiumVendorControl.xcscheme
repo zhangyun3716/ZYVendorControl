@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5450C3B61DADCB8D000435EC"
-               BuildableName = "FlexiumVendorControl.app"
+               BuildableName = "&#x5382;&#x5546;&#x8fdb;&#x51fa;.app"
                BlueprintName = "FlexiumVendorControl"
                ReferencedContainer = "container:FlexiumVendorControl.xcodeproj">
             </BuildableReference>
@@ -53,7 +53,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5450C3B61DADCB8D000435EC"
-            BuildableName = "FlexiumVendorControl.app"
+            BuildableName = "&#x5382;&#x5546;&#x8fdb;&#x51fa;.app"
             BlueprintName = "FlexiumVendorControl"
             ReferencedContainer = "container:FlexiumVendorControl.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
       </AdditionalOptions>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Debug"
+      buildConfiguration = "Release"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5450C3B61DADCB8D000435EC"
-            BuildableName = "FlexiumVendorControl.app"
+            BuildableName = "&#x5382;&#x5546;&#x8fdb;&#x51fa;.app"
             BlueprintName = "FlexiumVendorControl"
             ReferencedContainer = "container:FlexiumVendorControl.xcodeproj">
          </BuildableReference>
@@ -95,7 +95,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5450C3B61DADCB8D000435EC"
-            BuildableName = "FlexiumVendorControl.app"
+            BuildableName = "&#x5382;&#x5546;&#x8fdb;&#x51fa;.app"
             BlueprintName = "FlexiumVendorControl"
             ReferencedContainer = "container:FlexiumVendorControl.xcodeproj">
          </BuildableReference>

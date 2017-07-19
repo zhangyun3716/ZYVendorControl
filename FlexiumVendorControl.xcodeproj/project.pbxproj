@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		542C6B481DB47F5700FF4B7C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 542C6B471DB47F5700FF4B7C /* LoginViewController.m */; };
 		5450C3BC1DADCB8E000435EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5450C3BB1DADCB8E000435EC /* main.m */; };
 		5450C3BF1DADCB8E000435EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5450C3BE1DADCB8E000435EC /* AppDelegate.m */; };
 		5450C3C21DADCB8E000435EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5450C3C11DADCB8E000435EC /* ViewController.m */; };
@@ -15,6 +16,14 @@
 		5450C3CA1DADCB8E000435EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5450C3C81DADCB8E000435EC /* LaunchScreen.storyboard */; };
 		5450C3D51DADCB8E000435EC /* FlexiumVendorControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5450C3D41DADCB8E000435EC /* FlexiumVendorControlTests.m */; };
 		5450C3E01DADCB8E000435EC /* FlexiumVendorControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5450C3DF1DADCB8E000435EC /* FlexiumVendorControlUITests.m */; };
+		5450C3F21DADCC39000435EC /* 入库.png in Resources */ = {isa = PBXBuildFile; fileRef = 5450C3EE1DADCC39000435EC /* 入库.png */; };
+		5450C3F31DADCC39000435EC /* 出库.png in Resources */ = {isa = PBXBuildFile; fileRef = 5450C3EF1DADCC39000435EC /* 出库.png */; };
+		5450C3F41DADCC39000435EC /* 地点2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5450C3F01DADCC39000435EC /* 地点2.png */; };
+		5450C3F51DADCC39000435EC /* 扫一扫2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5450C3F11DADCC39000435EC /* 扫一扫2.png */; };
+		5450C3F71DADCC45000435EC /* logo-flexium.png in Resources */ = {isa = PBXBuildFile; fileRef = 5450C3F61DADCC45000435EC /* logo-flexium.png */; };
+		5450C3F91DADCC4C000435EC /* normal1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5450C3F81DADCC4C000435EC /* normal1.png */; };
+		54E207C31DB0B8E00051B307 /* arear.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54E207C21DB0B8E00051B307 /* arear.plist */; };
+		54FC97081DED2EB30044587B /* ZYScannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FC97071DED2EB30044587B /* ZYScannerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5450C3B71DADCB8D000435EC /* FlexiumVendorControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlexiumVendorControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		542C6B461DB47F5700FF4B7C /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = ../LoginViewController.h; sourceTree = "<group>"; };
+		542C6B471DB47F5700FF4B7C /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = ../LoginViewController.m; sourceTree = "<group>"; };
+		5450C3B71DADCB8D000435EC /* 厂商进出.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "厂商进出.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5450C3BB1DADCB8E000435EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5450C3BD1DADCB8E000435EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5450C3BE1DADCB8E000435EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +62,15 @@
 		5450C3DB1DADCB8E000435EC /* FlexiumVendorControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlexiumVendorControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5450C3DF1DADCB8E000435EC /* FlexiumVendorControlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlexiumVendorControlUITests.m; sourceTree = "<group>"; };
 		5450C3E11DADCB8E000435EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5450C3EE1DADCC39000435EC /* 入库.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "入库.png"; sourceTree = "<group>"; };
+		5450C3EF1DADCC39000435EC /* 出库.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "出库.png"; sourceTree = "<group>"; };
+		5450C3F01DADCC39000435EC /* 地点2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "地点2.png"; sourceTree = "<group>"; };
+		5450C3F11DADCC39000435EC /* 扫一扫2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "扫一扫2.png"; sourceTree = "<group>"; };
+		5450C3F61DADCC45000435EC /* logo-flexium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-flexium.png"; sourceTree = "<group>"; };
+		5450C3F81DADCC4C000435EC /* normal1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = normal1.png; sourceTree = "<group>"; };
+		54E207C21DB0B8E00051B307 /* arear.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = arear.plist; sourceTree = "<group>"; };
+		54FC97061DED2EB30044587B /* ZYScannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYScannerView.h; sourceTree = "<group>"; };
+		54FC97071DED2EB30044587B /* ZYScannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYScannerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +111,7 @@
 		5450C3B81DADCB8D000435EC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5450C3B71DADCB8D000435EC /* FlexiumVendorControl.app */,
+				5450C3B71DADCB8D000435EC /* 厂商进出.app */,
 				5450C3D01DADCB8E000435EC /* FlexiumVendorControlTests.xctest */,
 				5450C3DB1DADCB8E000435EC /* FlexiumVendorControlUITests.xctest */,
 			);
@@ -101,15 +121,20 @@
 		5450C3B91DADCB8E000435EC /* FlexiumVendorControl */ = {
 			isa = PBXGroup;
 			children = (
+				5450C3ED1DADCC07000435EC /* image */,
+				5450C3FA1DADCC5F000435EC /* scan */,
 				5450C3BD1DADCB8E000435EC /* AppDelegate.h */,
 				5450C3BE1DADCB8E000435EC /* AppDelegate.m */,
 				5450C3C01DADCB8E000435EC /* ViewController.h */,
 				5450C3C11DADCB8E000435EC /* ViewController.m */,
+				542C6B461DB47F5700FF4B7C /* LoginViewController.h */,
+				542C6B471DB47F5700FF4B7C /* LoginViewController.m */,
 				5450C3C31DADCB8E000435EC /* Main.storyboard */,
 				5450C3C61DADCB8E000435EC /* Assets.xcassets */,
 				5450C3C81DADCB8E000435EC /* LaunchScreen.storyboard */,
 				5450C3CB1DADCB8E000435EC /* Info.plist */,
 				5450C3BA1DADCB8E000435EC /* Supporting Files */,
+				54E207C21DB0B8E00051B307 /* arear.plist */,
 			);
 			path = FlexiumVendorControl;
 			sourceTree = "<group>";
@@ -140,6 +165,28 @@
 			path = FlexiumVendorControlUITests;
 			sourceTree = "<group>";
 		};
+		5450C3ED1DADCC07000435EC /* image */ = {
+			isa = PBXGroup;
+			children = (
+				5450C3F81DADCC4C000435EC /* normal1.png */,
+				5450C3F61DADCC45000435EC /* logo-flexium.png */,
+				5450C3EE1DADCC39000435EC /* 入库.png */,
+				5450C3EF1DADCC39000435EC /* 出库.png */,
+				5450C3F01DADCC39000435EC /* 地点2.png */,
+				5450C3F11DADCC39000435EC /* 扫一扫2.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		5450C3FA1DADCC5F000435EC /* scan */ = {
+			isa = PBXGroup;
+			children = (
+				54FC97061DED2EB30044587B /* ZYScannerView.h */,
+				54FC97071DED2EB30044587B /* ZYScannerView.m */,
+			);
+			path = scan;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -157,7 +204,7 @@
 			);
 			name = FlexiumVendorControl;
 			productName = FlexiumVendorControl;
-			productReference = 5450C3B71DADCB8D000435EC /* FlexiumVendorControl.app */;
+			productReference = 5450C3B71DADCB8D000435EC /* 厂商进出.app */;
 			productType = "com.apple.product-type.application";
 		};
 		5450C3CF1DADCB8E000435EC /* FlexiumVendorControlTests */ = {
@@ -207,6 +254,7 @@
 				TargetAttributes = {
 					5450C3B61DADCB8D000435EC = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = J57888S29T;
 					};
 					5450C3CF1DADCB8E000435EC = {
 						CreatedOnToolsVersion = 7.3;
@@ -243,9 +291,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5450C3F31DADCC39000435EC /* 出库.png in Resources */,
 				5450C3CA1DADCB8E000435EC /* LaunchScreen.storyboard in Resources */,
+				5450C3F51DADCC39000435EC /* 扫一扫2.png in Resources */,
+				5450C3F71DADCC45000435EC /* logo-flexium.png in Resources */,
+				54E207C31DB0B8E00051B307 /* arear.plist in Resources */,
+				5450C3F21DADCC39000435EC /* 入库.png in Resources */,
+				5450C3F41DADCC39000435EC /* 地点2.png in Resources */,
 				5450C3C71DADCB8E000435EC /* Assets.xcassets in Resources */,
 				5450C3C51DADCB8E000435EC /* Main.storyboard in Resources */,
+				5450C3F91DADCC4C000435EC /* normal1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,8 +326,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5450C3C21DADCB8E000435EC /* ViewController.m in Sources */,
+				54FC97081DED2EB30044587B /* ZYScannerView.m in Sources */,
 				5450C3BF1DADCB8E000435EC /* AppDelegate.m in Sources */,
 				5450C3BC1DADCB8E000435EC /* main.m in Sources */,
+				542C6B481DB47F5700FF4B7C /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +402,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -389,6 +447,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -413,10 +472,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = FlexiumVendorControl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Flexiumcn.FlexiumVendorControl;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FLEXium.FlexiumVendorControl;
+				PRODUCT_NAME = "厂商进出";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -424,10 +486,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: FLEXium Interconnect(Kunshan), Inc.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = FlexiumVendorControl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Flexiumcn.FlexiumVendorControl;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FLEXium.FlexiumVendorControl;
+				PRODUCT_NAME = "厂商进出";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -496,6 +561,7 @@
 				5450C3E61DADCB8E000435EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5450C3E71DADCB8E000435EC /* Build configuration list for PBXNativeTarget "FlexiumVendorControlTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +570,7 @@
 				5450C3E91DADCB8E000435EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5450C3EA1DADCB8E000435EC /* Build configuration list for PBXNativeTarget "FlexiumVendorControlUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +579,7 @@
 				5450C3EC1DADCB8E000435EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
